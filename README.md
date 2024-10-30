@@ -1,27 +1,14 @@
 # jmxdump-analyzer
 The JMXDump Analyser Utility is a small, internal-only, self-contained JavaFX application which allows you to open an Alfresco 'JMX dump' file and will split the contents in manageable tabs. Highlighting the important stuff first and then breaking down the settings into the relevant topics, the utility makes JMX dumps much easier to read!
 
-## Author 
+## Original Author 
 [astrachan](https://github.com/astrachan)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Current version
 2.1.6
 
-**Alfresco internal**
-
-Please logon to our [Nexus](https://nexus.alfresco.com) before clicking on any of these links:
-* Full documentation is [here](https://nexus.alfresco.com/nexus/content/repositories/alfresco-internal-docs/jmxdump-analyzer-fx/latest/index.html)
-* Full change log report is [here](CHANGELOG.md)
-* Latest SNAPSHOT versions are [here](https://artifacts.alfresco.com/nexus/content/repositories/alfresco-support-snapshots/org/alfresco/support/jmxdump-analyzer-fx/)
-
-**External**
-
-The docs above are built as part of the 'site' project, please follow the 'site' instructions below.
-
 ## Features
-* **NEW** you can run multiple JMXdump-analyzer's and open multiple zip files
+* You can run multiple JMXdump-analyzer's and open multiple zip files
 * Allow you to drag and drop JMXDump zip files directly into the application
 * Allows you to load in a JMXDump file from any version of Alfresco (including version 5.2 +)
 * Allows you to drag and drop a JMXDump text file directly into the application
@@ -43,8 +30,8 @@ The name of the application is **jmxdump-analyzer-fx** and can be run on any pla
 First you can clone this repository.
 
 **Pre-requisites**
-* Maven 3.3.9 or above
-* Java 8
+* Maven 3.9.9 or above
+* Java 17
 
 **Building**
 `mvn clean install`
