@@ -1,5 +1,16 @@
 # Change log
 
+## [2.1.6] (2024-??-??)
+
+### Added
+
+Support for macOS on arm
+
+### Changed
+
+Updated to use latest dependencies and OpenJDK to improve support.
+ 
+
 ## [2.1.5] (2019-11-25)
 
 ### Fixed
